@@ -1,0 +1,433 @@
+*{
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    font: normal normal normal 17px/1.2em 'Noticia Text', serif;
+    background-color: #E83556;
+}
+
+ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+li
+{
+    display:inline;
+}
+
+ul.page-menu-list > li { margin: 0px 37px; }
+
+p{
+    margin: 0;
+}
+
+.page-menu-list-item
+{
+    color: #C3BFBE;
+}
+
+.header
+{
+    position: relative;
+    height: 147px;
+    top: 15px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.page-border-top
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    border-top: 15px solid rgb(96, 96, 96);
+    border-bottom: 0px solid rgb(96, 96, 96);
+}
+
+.identification
+{
+    position: absolute;
+
+    color: rgb(96, 96, 96);
+    left:65px;
+    top:50px;
+}
+
+.name
+{
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.profession
+{
+    padding-top: 10px;
+}
+
+.content-section
+{
+    position: relative;
+    background-color: #EAE5E5;
+}
+
+.page-content
+{
+    position: relative;
+    width: 980px;
+    margin:0 auto;
+    min-height: 535px;
+}
+
+.avatar-400
+{
+    -webkit-border-radius: 50em;
+    -moz-border-radius: 50em;
+    border-radius: 50em;
+}
+
+.home-avatar
+{
+    position: absolute;
+    top:55px;
+    left: 45px;
+}
+
+.home-info
+{
+    position: absolute;
+    left: 490px;
+    top: 55px;
+}
+
+.home-info h1
+{
+    font-size:80px;
+    font-weight: bold;
+}
+
+.home-info h2
+{
+    font-size:46px;
+    font-weight: normal;
+}
+.home-title
+{
+    -webkit-margin-before: 0.33em;
+    font-weight: normal;
+    padding-left: 10px;
+    color: #606060;
+}
+
+.home-subtitle
+{
+    padding-top: 2px;
+    padding-left: 10px;
+    color: #606060;
+}
+
+.menu-links
+{
+    color: white;
+    text-transform:uppercase;
+    font-size: 13px;
+}
+.bubble-note
+{
+    border-radius: 50%;
+    background-color: rgb(232, 53, 86);
+    -webkit-transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+    cursor: pointer;
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+    display: inline-block;
+    color:white;
+}
+
+.bubble-note:hover
+{
+    background-color:#9F243B;
+}
+
+.green-effect
+{
+    background-color: #61CFD3;
+}
+
+.green-effect:hover
+{
+    background-color:  #3F8A8D;
+}
+
+.yellowgreen-effect
+{
+    background-color: #D1C824;
+}
+.yellowgreen-effect:hover
+{
+    background-color: #8D8719;
+}
+
+.content-text
+{
+    font: normal normal normal 13px/1.2em 'Open Sans', sans-serif;
+    color: #606060;
+    width: 425px;
+}
+
+/*--------------header section-----------------*/
+.header-container
+{
+    background-color: white;
+}
+
+.menu-links-list-item
+{
+    padding-right: 25px;
+}
+
+
+
+.page-menu
+{
+    position: absolute;
+    right: 30px;
+    top:82px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+/*--------------end header section-----------------*/
+
+
+
+
+/*--------------footer section-----------------*/
+
+.footer-section
+{
+    min-height: 275px;
+    width: 100%;
+    border-top: 3px solid white;
+}
+
+
+.footer-content
+{
+    width: 890px;
+    margin: 0 auto;
+    padding-top: 25px;
+    position: relative;
+}
+
+.phone-icon
+{
+    background-image: url("/assets/images/phone.png");
+}
+
+.mail-icon
+{
+    background-image: url("/assets/images/mail.png");
+}
+
+.copyright-icon
+{
+    background-image: url("/assets/images/copyright.png");
+}
+
+.plus-icon
+{
+    background-image: url("/assets/images/plus.png");
+}
+
+
+.footer-list-item-icon
+{
+    height: 45px;
+    width: 44px;
+    border-radius: 50%;
+    background-color: #61CFD3;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.footer-list
+{
+    color: white;
+    font: normal normal normal 13px/1.2em 'Open Sans', sans-serif;
+}
+
+.footer-list-item
+{
+    display: inline-block;
+    position: absolute;
+}
+
+.footer-list-item-content
+{
+    position: absolute;
+    top: 5px;
+    left: 45px;
+    padding-left: 10px;
+}
+
+.footer-list-item-text
+{
+    line-height: 1;
+    margin: 0;
+    min-width: 105px;
+}
+
+.footer-list-item-text.title
+{
+    font-weight: bold;
+}
+
+.copyright-text
+{
+    font: normal normal normal 11px/1.2em 'Open Sans', sans-serif;
+    width: 140px;
+    text-align: justify;
+}
+
+.call-item
+{
+    left:40px;
+}
+
+.mail-item
+{
+   left: 237px;
+}
+
+.social-item
+{
+   right: 360px;
+}
+
+.copyright-item
+{
+    right: 180px;
+}
+
+.social-network-icon
+{
+    background-image: url("/assets/images/social-networks-black-white-icons.png");
+    width:25px;
+    height:25px;
+    background-size: auto 66px;
+    display: inline-block;
+}
+
+.facebook-icon
+{
+    background-position: -5px 29px;
+}
+
+.google-icon
+{
+    background-position: -169px 29px;
+}
+
+.twitter-icon
+{
+    background-position: -70px 29px;
+}
+
+/*--------------end footer section-----------------*/
+
+
+
+/*--------------resume section-----------------*/
+
+.page-content
+{
+    width: 764px;
+}
+
+.resume-section .content-text
+{
+    width: 443px;
+}
+
+.content-section h1
+{
+    margin: 0;
+    padding-top: 31px;
+    font: normal normal normal 80px/1.2em 'Noticia Text', serif;
+    color: white;
+    text-transform:uppercase;
+    padding-bottom: 12px;
+}
+
+.bubble-label
+{
+   vertical-align: top;
+}
+
+.bubble-note.midsize
+{
+    width:120px;
+    height:120px;
+}
+
+.bubble-text
+{
+    line-height: 15px;
+    top: 45px;
+    position: relative;
+}
+
+.left-section
+{
+    width:595px;
+}
+
+.content-block
+{
+    position: relative;
+    padding-bottom: 38px;
+}
+
+.content-description
+{
+    display: inline-block;
+    padding-top: 25px;
+    position: relative;
+    padding-left: 22px;
+}
+
+.horizontal-separator
+{
+    width: 100%;
+    border-top: 1px solid #C3BFBE;
+
+    padding: 20px 0 14px 0;
+}
+
+.content-label
+{
+    color: #606060;
+}
+
+
+
+/*--------------end resume section-----------------*/
+
+
+
+
