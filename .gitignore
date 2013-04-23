@@ -6,3 +6,13 @@ project/target
 logs
 
 .DS_Store
+
+.idea
+
+target
+
+.idea/IdeaProject.iml
+
+.idea_modules/leandro-build.iml
+
+.idea_modules/leandro.iml
